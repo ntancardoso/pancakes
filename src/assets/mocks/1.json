@@ -1,0 +1,89 @@
+{
+    "title": "Top 10 Fastfood in PH",
+    "image": "http://lorempixel.com/400/225/food/",
+    "likes": 56,
+    "comments": 83,
+    "createdBy": { "username": "penguin", "avatar": "https: //randomuser.me/api/portraits/lego/7.jpg" },
+    "pancakes": [
+        [{
+            "name": "Kenny Rogers",
+            "image": "http://lorempixel.com/400/225/food/1",
+            "description": "",
+            "attributes": [
+                { "name": "rank", "value": "#10" }
+            ]
+        }],
+        [{
+            "name": "Mang Inasal",
+            "image": "http://lorempixel.com/400/225/food/2",
+            "description": "",
+            "attributes": [
+                { "name": "rank", "value": "#9" }
+            ]
+        }],
+        [{
+            "name": "Goldilocks",
+            "image": "http://lorempixel.com/400/225/food/3",
+            "description": "",
+            "attributes": [
+                { "name": "rank", "value": "#8" }
+            ]
+        }],
+        [{
+            "name": "Pizza Hut",
+            "image": "http://lorempixel.com/400/225/food/4",
+            "description": "",
+            "attributes": [
+                { "name": "rank", "value": "#7" }
+            ]
+        }],
+        [{
+            "name": "Shakey's",
+            "image": "http://lorempixel.com/400/225/food/5",
+            "description": "",
+            "attributes": [
+                { "name": "rank", "value": "#6" }
+            ]
+        }],
+        [{
+            "name": "Greenwich",
+            "image": "http://lorempixel.com/400/225/food/6",
+            "description": "",
+            "attributes": [
+                { "name": "rank", "value": "#5" }
+            ]
+        }],
+        [{
+            "name": "KFC",
+            "image": "http://lorempixel.com/400/225/food/7",
+            "description": "",
+            "attributes": [
+                { "name": "rank", "value": "#4" }
+            ]
+        }],
+        [{
+            "name": "Chowking",
+            "image": "http://lorempixel.com/400/225/food/8",
+            "description": "",
+            "attributes": [
+                { "name": "rank", "value": "#3" }
+            ]
+        }],
+        [{
+            "name": "McDonald's",
+            "image": "http://lorempixel.com/400/225/food/9",
+            "description": "",
+            "attributes": [
+                { "name": "rank", "value": "#2" }
+            ]
+        }],
+        [{
+            "name": "Jollibee",
+            "image": "http://lorempixel.com/400/225/food/10",
+            "description": "",
+            "attributes": [
+                { "name": "rank", "value": "#1" }
+            ]
+        }]
+    ]
+}

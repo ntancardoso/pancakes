@@ -1,0 +1,32 @@
+<ion-header>
+    <ion-navbar color="theme">
+        <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+        <ion-title>{{title}}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <div *ngIf="pancakes?.pancakes.length > 0">
+        <ion-slides class="zz" *ngFor="let data of pancakes.pancakes" (ionSlideDidChange)="slideChanged()">
+            <ion-slide class="ff" *ngFor="let details of data" [style.backgroundImage]="'url(' + details.image + ')'">
+                <div class="pt">{{details.attributes[0].value}}</div>
+                <div>
+                    <h1>{{details.name}}</h1>
+                </div>
+            </ion-slide>
+        </ion-slides>
+    </div>
+</ion-content>
+
+<ion-footer *ngIf="pancakes?.showFooter">
+    <ion-toolbar>
+        <ion-title class="at">Total
+            <span>
+               ${{total}}
+            </span>
+        </ion-title>
+
+    </ion-toolbar>
+</ion-footer>

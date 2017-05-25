@@ -1,0 +1,29 @@
+page-home {
+    ion-card {
+        //  max-height: 200px;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        ion-item {
+            background: transparent !important;
+        }
+    }
+    ion-card-content {
+        color: #fff !important;
+        text-align: center;
+        // max-height: 100px;
+    }
+    .text-with-shadow {
+        color: #fff !important;
+        text-shadow: 2px 2px #333
+    }
+    .card-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.0em;
+        width: 100%;
+        font-weight: bold;
+        color: #fff;
+        height: 100%;
+    }
+}

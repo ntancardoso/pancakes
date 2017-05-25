@@ -1,0 +1,21 @@
+<ion-menu [content]="content">
+    <ion-content class="side-menu-gradient">
+        <div class="menu-profile">
+            <img src="https://secure.gravatar.com/avatar/f85896b6f4f5b0e6d21df998d2afc4aa" />
+            <h3>Taro</h3>
+        </div>
+        <ion-list no-lines *ngFor="let g of menuGroups">
+            <ion-list-header *ngIf="g.name!=''" class="side-menu-item">
+                {{g.name}}
+            </ion-list-header>
+            <button menuClose ion-item *ngFor="let m of g.menus" (click)="processMenu(m)" class="side-menu-item">
+               <ion-icon name="{{m.icon}}" item-left></ion-icon>
+              {{m.name}}
+            </button>
+        </ion-list>
+    </ion-content>
+
+</ion-menu>
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

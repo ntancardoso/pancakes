@@ -1,0 +1,158 @@
+{
+    "title": "My PC Build",
+    "image": "http://lorempixel.com/400/225/technics/",
+    "likes": 56,
+    "comments": 83,
+    "showFooter": true,
+    "createdBy": { "username": "penguin", "avatar": "https: //randomuser.me/api/portraits/lego/7.jpg" },
+    "pancakes": [
+        [{
+                "name": "Intel Core i3-7100 3.90Ghz",
+                "image": "http://lorempixel.com/400/225/technics/8",
+                "description": "",
+                "attributes": [
+                    { "name": "category", "value": "Processor" }
+                ]
+            },
+            {
+                "name": "Intel Core i5-7600k 4.2Ghz",
+                "image": "http://lorempixel.com/400/225/technics/2",
+                "description": "",
+                "attributes": [
+                    { "name": "category", "value": "Processor" }
+                ]
+            },
+            {
+                "name": "Intel Core i7 6900K 4.0GHz",
+                "image": "http://lorempixel.com/400/225/technics/3",
+                "description": "",
+                "attributes": [
+                    { "name": "category", "value": "Processor" }
+                ]
+            }
+        ],
+        [{
+            "name": "Asus Prime B250M-A",
+            "image": "http://lorempixel.com/400/225/technics/4",
+            "description": "",
+            "attributes": [
+                { "name": "category", "value": "Motherboard" }
+            ]
+        }, {
+            "name": "Asus ROG Maximus IX Hero",
+            "image": "http://lorempixel.com/400/225/technics/5",
+            "description": "",
+            "attributes": [
+                { "name": "category", "value": "Motherboard" }
+            ]
+        }],
+        [{
+                "name": "Asus GTX 1080 Ti Strix OC 11gb",
+                "image": "http://lorempixel.com/400/225/technics/6",
+                "description": "",
+                "attributes": [
+                    { "name": "category", "value": "GPU" }
+                ]
+            }, {
+                "name": "MSI GTX 1080 Gaming 8GB",
+                "image": "http://lorempixel.com/400/225/technics/7",
+                "description": "",
+                "attributes": [
+                    { "name": "category", "value": "GPU" }
+                ]
+            },
+            {
+                "name": "Palit GTX 1060 Jetstream 6GB",
+                "image": "http://lorempixel.com/400/225/technics/8",
+                "description": "",
+                "attributes": [
+                    { "name": "category", "value": "GPU" }
+                ]
+            }
+        ],
+        [{
+                "name": "Crucial 4GB 1x4gb DDR4 2133",
+                "image": "http://lorempixel.com/400/225/technics/9",
+                "description": "",
+                "attributes": [
+                    { "name": "category", "value": "RAM" }
+                ]
+            },
+            {
+                "name": "Gskill Aegis 8GB 4gbx2 DDR4 2400",
+                "image": "http://lorempixel.com/400/225/technics/10",
+                "description": "",
+                "attributes": [
+                    { "name": "category", "value": "RAM" }
+                ]
+            },
+            {
+                "name": "Corsair Vengeance 16GB 2x8gb DDR4 2666",
+                "image": "http://lorempixel.com/400/225/technics/11",
+                "description": "",
+                "attributes": [
+                    { "name": "category", "value": "RAM" }
+                ]
+            },
+            {
+                "name": "Kingston HyperX Savage 8GB 2x4gb DDR4 2133",
+                "image": "http://lorempixel.com/400/225/technics/12",
+                "description": "",
+                "attributes": [
+                    { "name": "category", "value": "RAM" }
+                ]
+            }
+        ],
+        [{
+                "name": "Samsung 850 Pro 512GB sata III",
+                "image": "http://lorempixel.com/400/225/technics/5",
+                "description": "",
+                "attributes": [
+                    { "name": "category", "value": "Disk" }
+                ]
+            },
+            {
+                "name": "Samsung 850 Evo 1TB",
+                "image": "http://lorempixel.com/400/225/technics/1",
+                "description": "",
+                "attributes": [
+                    { "name": "category", "value": "Disk" }
+                ]
+            }
+        ],
+        [{
+                "name": "Corsair CX750 750W 80Plus Bronze",
+                "image": "http://lorempixel.com/400/225/technics/3",
+                "description": "",
+                "attributes": [
+                    { "name": "category", "value": "PSU" }
+                ]
+            },
+            {
+                "name": "Corsair TX850M 850watts 80Plus Gold",
+                "image": "http://lorempixel.com/400/225/technics/4",
+                "description": "",
+                "attributes": [
+                    { "name": "category", "value": "PSU" }
+                ]
+            }
+        ],
+        [{
+                "name": "Corsair Graphite Series 760T",
+                "image": "http://lorempixel.com/400/225/technics/5",
+                "description": "",
+                "attributes": [
+                    { "name": "category", "value": "Case" }
+                ]
+            },
+            {
+                "name": "Corsair Crystal Series 570X RGB",
+                "image": "http://lorempixel.com/400/225/technics/6",
+                "description": "",
+                "attributes": [
+                    { "name": "category", "value": "Case" }
+                ]
+            }
+        ]
+    ]
+}

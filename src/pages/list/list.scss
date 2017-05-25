@@ -1,0 +1,26 @@
+page-list {
+    .zz {
+        height: 225px !important;
+    }
+    .ff {
+        background-repeat: none;
+        background-size: cover;
+        color: white;
+        text-shadow: 2px 2px #333
+    }
+    .at {
+        float: right;
+        color: #fff !important;
+        text-shadow: 2px 2px #333;
+    }
+    .pt {
+        position: relative;
+        top: -50px;
+        left: 10px;
+        color: #fff !important;
+        text-shadow: 2px 2px #333;
+        font-size: 1.3em;
+        font-weight: bold;
+        text-align: left;
+    }
+}
